@@ -52,6 +52,8 @@
 
 #include "tssproperties.h"
 
+#define TPM_INTERFACE_TYPE_DEFAULT "dev"
+
 /* For systems where there are no environment variables, GETENV returns NULL.  This simulates the
    situation when an environment variable is not set, causing the compiled in default to be used. */
 #ifndef TPM_TSS_NOENV
